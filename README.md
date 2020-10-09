@@ -9,7 +9,9 @@ Autumn is a simple and extensible Discord bot aimed at helping with moderation a
 - Colorized log output
 
 # Getting Started
-When running Autumn for the first time, it will try and automatically connect to the Discord service with the current bot token, however, the token of the bot must be changed. The bot's token or `api_key` can be found in the file `./modules/settings.py`. Next, if it is desired to utilize the NLP or Natural Language Processing functionality of the bot, an authentication token and a Watson assistant id must be created; and all of the relevant information can be found here: https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started and the bot's authentication and Watson assitant id variables can be found in `./bot.py`.
+When running Autumn for the first time, it will try and automatically connect to the Discord service with the current bot token, however, the token of the bot must be changed. The bot's token or `api_key` can be found in the file `./modules/settings.py`. Next, if it is desired to utilize the NLP or Natural Language Processing functionality of the bot, an authentication token and a Watson assistant id must be created; and all of the relevant information can be found here: https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started.
+
+The bot's authentication token and Watson assitant id variables can be found in `./bot.py`.
 
 # Plugins
 Currently there are only a handful of plugins for the bot because of simplicity and keeping the codebase fairly small. Most plugins that aren't available can be created from the provided plugin templates. Along with dynamically loaded plugins, the bot also features internal commands which can be modified from within the `bot.py` file. The commands that already exist are again, very simple such as replying to the bot's name, replying with the sky's color, or even just a friendly hello.

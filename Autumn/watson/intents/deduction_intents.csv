@@ -1,0 +1,295 @@
+exit,dialog_exit
+stop,dialog_exit
+quit,dialog_exit
+no more,dialog_exit
+leave,dialog_exit
+end,dialog_exit
+It's christmas!,holiday_christmas
+It's Christmas time!,holiday_christmas
+Merry Christmas!,holiday_christmas
+"Autumn, it's Christmas!",holiday_christmas
+Christmas time!,holiday_christmas
+Happy Easter!,holiday_easter
+Today is Easter,holiday_easter
+It's Easter!,holiday_easter
+Christ has risen!,holiday_easter
+Its Easter time.,holiday_easter
+Its Easter right now,holiday_easter
+it's christmas!,holiday_general
+Happy holidays!,holiday_general
+Delightful days,holiday_general
+Merry day,holiday_general
+Its the holidays!,holiday_general
+Have a great holiday,holiday_general
+Have a nice holiday,holiday_general
+Have a good holiday,holiday_general
+it's the holidays,holiday_general
+Its Halloween time,holiday_halloween
+Im going trick or treatings,holiday_halloween
+Great Halloween today,holiday_halloween
+Today is Halloween,holiday_halloween
+Happy Halloween!,holiday_halloween
+Is anyone trick or treating today?,holiday_halloween
+I love halloween time,holiday_halloween
+It's the new year!,holiday_newyears
+Let's celebrate new years,holiday_newyears
+Its time to celebrate new years,holiday_newyears
+Happy New Year!,holiday_newyears
+Have a nice new year!,holiday_newyears
+The ball just dropped,holiday_newyears
+It is Thanksgiving right now,holiday_thanksgiving
+Today is Thanksgiving,holiday_thanksgiving
+Its Thanksgiving time,holiday_thanksgiving
+Happy Thanksgiving!,holiday_thanksgiving
+Its Thanksgiving!,holiday_thanksgiving
+blacklist,plugin_ban
+blacklist user,plugin_ban
+ban user,plugin_ban
+ban,plugin_ban
+message member,plugin_dm
+message user,plugin_dm
+dm user,plugin_dm
+dm somebody,plugin_dm
+dm,plugin_dm
+message,plugin_dm
+send message,plugin_dm
+direct message,plugin_dm
+send a message,plugin_dm
+Can I see help?,plugin_help
+Help info,plugin_help
+What's the help docs?,plugin_help
+Help,plugin_help
+Show me help,plugin_help
+Show help,plugin_help
+Show the usage,plugin_help
+Show help docs,plugin_help
+Show docs,plugin_help
+Display help,plugin_help
+Display help docs,plugin_help
+Autumn display help,plugin_help
+Autumn help,plugin_help
+Autumn show help,plugin_help
+"Autumn, display help documentation.",plugin_help
+"Autumn, display your help info.",plugin_help
+"Autumn, display your help.",plugin_help
+"Autumn, how do you work?",plugin_help
+"Autumn, show display help docs.",plugin_help
+"Autumn, show me help docs.",plugin_help
+"Autumn, show me help.",plugin_help
+Bot help,plugin_help
+Display bot help,plugin_help
+Show me usage,plugin_help
+Usage,plugin_help
+Docs,plugin_help
+Documentation,plugin_help
+Help docs,plugin_help
+"Display help, Autumn.",plugin_help
+Help bot,plugin_help
+"Help me, Autumn.",plugin_help
+"How do you work, Autumn?",plugin_help
+How does Autumn work?,plugin_help
+Version,plugin_info
+Version info,plugin_info
+Version number,plugin_info
+What version are you?,plugin_info
+What's Autumns version?,plugin_info
+Autumn info,plugin_info
+About Autumn,plugin_info
+About,plugin_info
+Show me version info,plugin_info
+Show info,plugin_info
+Info,plugin_info
+"Autumn, what library are you using?",plugin_info
+Autumn version,plugin_info
+"Autumn, show me your info.",plugin_info
+"Autumn, what version are you?",plugin_info
+Show me your info,plugin_info
+boot user,plugin_kick
+kick user,plugin_kick
+boot,plugin_kick
+kick,plugin_kick
+equate,plugin_math
+multiply,plugin_math
+add,plugin_math
+compute,plugin_math
+calulate,plugin_math
+solve,plugin_math
+math,plugin_math
+help me with math,plugin_math
+calculate something for me,plugin_math
+solve an eqaution,plugin_math
+divide,plugin_math
+add numbers,plugin_math
+solve math,plugin_math
+Change your status to,plugin_status
+Status,plugin_status
+Set your status,plugin_status
+Set status to,plugin_status
+Set status,plugin_status
+Put your status to,plugin_status
+Put status to,plugin_status
+Put status,plugin_status
+Change your status,plugin_status
+Change user status,plugin_status
+Change your user status,plugin_status
+Change your current status,plugin_status
+Change status to $user_status,plugin_status
+Change status $user_status,plugin_status
+"Autumn, what's your spawn date?",plugin_uptime
+"Autumn, what's your birthday?",plugin_uptime
+"Autumn, show me when you were spawned.",plugin_uptime
+"Autumn, show me how old you are.",plugin_uptime
+"Autumn, show me how long you've been alive.",plugin_uptime
+"Autumn, give me your up time",plugin_uptime
+"When were you made, Autumn?",plugin_uptime
+"When did you spawn, Autumn?",plugin_uptime
+"What time did you spawn, Autumn?",plugin_uptime
+"Tell me when you spawned, Autumn",plugin_uptime
+"How long have been active, Autumn?",plugin_uptime
+"Autumn, when were you created?",plugin_uptime
+"Autumn, I want the uptime.",plugin_uptime
+"Autumn, when were you born?",plugin_uptime
+"Autumn, give me the uptime.",plugin_uptime
+What's the uptime?,plugin_uptime
+Uptime,plugin_uptime
+Time spawned,plugin_uptime
+Time alive,plugin_uptime
+Spawn time,plugin_uptime
+Spawn,plugin_uptime
+Show uptime,plugin_uptime
+Show me uptime.,plugin_uptime
+Please show me the uptime.,plugin_uptime
+Please give me the uptime.,plugin_uptime
+I'd like the uptime please.,plugin_uptime
+Gimme uptime,plugin_uptime
+Current uptime,plugin_uptime
+Can I get the uptime?,plugin_uptime
+"Autumn, when were you spawned?",plugin_uptime
+"How are you, Autumn?",questions_concern
+Is Autumn ok?,questions_concern
+"Autumn, you good?",questions_concern
+"Are you ok, Autumn?",questions_concern
+"How have you been, Autumn?",questions_concern
+Are we alive?,questions_life
+What's the meaning of life?,questions_life
+What is the purpose of life?,questions_life
+What does it mean to be alive?,questions_life
+Am I alive?,questions_life
+What's the point of living?,questions_life
+What's the point of life?,questions_life
+What does life mean?,questions_life
+Are you alive?,questions_life
+Okay,response_agree
+yup,response_agree
+k,response_agree
+alright,response_agree
+fine,response_agree
+Go ahead,response_agree
+duh,response_agree
+no shit,response_agree
+yeah duh,response_agree
+si,response_agree
+ye,response_agree
+Yes,response_agree
+Yep.,response_agree
+Indeed,response_agree
+Of course,response_agree
+Totally,response_agree
+Uh-huh,response_agree
+ok,response_agree
+mhmm,response_agree
+yeah,response_agree
+You know it!,response_agree
+Sure!,response_agree
+nooo,response_disagreement
+not happening,response_disagreement
+no way,response_disagreement
+No thanks,response_disagreement
+nah,response_disagreement
+nuh,response_disagreement
+na,response_disagreement
+not,response_disagreement
+No,response_disagreement
+nope,response_disagreement
+Gracias,response_gratitude
+"Gracias, Autumn!",response_gratitude
+I want to thank you.,response_gratitude
+"Thank you, Autumn.",response_gratitude
+"You're awesome, Autumn!",response_gratitude
+"Thanks, Autumn.",response_gratitude
+Thank you!,response_gratitude
+Thanks,response_gratitude
+You're awesome. Thanks!,response_gratitude
+Awesome! Thank you.,response_gratitude
+Hello,response_greeting
+What up,response_greeting
+Hey,response_greeting
+Hiya,response_greeting
+Wazzup,response_greeting
+Yo!,response_greeting
+Sup,response_greeting
+Good afternoon,response_greeting
+Good morning,response_greeting
+What's new,response_greeting
+How's it going,response_greeting
+What's up,response_greeting
+Howdy,response_greeting
+Buenas dias,response_greeting
+Hola,response_greeting
+Hi,response_greeting
+Greetings,response_greeting
+Hello everyone,response_greeting
+shitbag,response_insults
+pendejo,response_insults
+puta,response_insults
+puto,response_insults
+bastard,response_insults
+fuckin idiot,response_insults
+fuckin retard,response_insults
+douche,response_insults
+dick,response_insults
+douchebag,response_insults
+dickhead,response_insults
+i hate you,response_insults
+fucking bot,response_insults
+autumn sucks,response_insults
+fuck autumn,response_insults
+you're a slut,response_insults
+lamer,response_insults
+shut up,response_insults
+go to hell,response_insults
+fuck off,response_insults
+pussy,response_insults
+cunt,response_insults
+motherfucker,response_insults
+fucktard,response_insults
+loser,response_insults
+moron,response_insults
+retard,response_insults
+dumbass,response_insults
+you're stupid,response_insults
+punk,response_insults
+twink,response_insults
+faggot,response_insults
+fag,response_insults
+nigger,response_insults
+piece of shit,response_insults
+asshole,response_insults
+fucker,response_insults
+bitch,response_insults
+die,response_insults
+go die,response_insults
+fucking a.i,response_insults
+you're shit,response_insults
+fuck you,response_insults
+Love you,response_love
+:heart:,response_love
+<3,response_love
+ily,response_love
+i love you,response_love
+"I love you, Autumn",response_love
+lova ya,response_love
+thanks babe,response_love
+"thanks, boo",response_love
+you're a babe autumn,response_love
+"You're the best, Autumn!",response_love

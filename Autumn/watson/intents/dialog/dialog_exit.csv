@@ -1,0 +1,6 @@
+stop,dialog_exit
+quit,dialog_exit
+no more,dialog_exit
+leave,dialog_exit
+exit,dialog_exit
+end,dialog_exit

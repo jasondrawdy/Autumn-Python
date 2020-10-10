@@ -1,0 +1,6901 @@
+{
+  "intents": [
+    {
+      "intent": "plugin_math",
+      "examples": [
+        {
+          "text": "calulate"
+        },
+        {
+          "text": "help me with math"
+        },
+        {
+          "text": "calculate something for me"
+        },
+        {
+          "text": "solve an eqaution"
+        },
+        {
+          "text": "equate"
+        },
+        {
+          "text": "compute"
+        },
+        {
+          "text": "solve"
+        },
+        {
+          "text": "multiply"
+        },
+        {
+          "text": "add"
+        },
+        {
+          "text": "divide"
+        },
+        {
+          "text": "add numbers"
+        },
+        {
+          "text": "solve math"
+        },
+        {
+          "text": "math"
+        }
+      ],
+      "description": "Tries to solve a math equation."
+    },
+    {
+      "intent": "plugin_kick",
+      "examples": [
+        {
+          "text": "Autumn boot",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kick"
+        },
+        {
+          "text": "Autumn kick",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn boot user",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                12,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, kick user",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "A module which determines if a user should be kicked from the server."
+    },
+    {
+      "intent": "plugin_uptime",
+      "examples": [
+        {
+          "text": "Autumn current uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn can I get the uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me when you were spawned.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, what's your spawn date?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, when were you spawned?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me how old you are.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, what's your birthday?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me how long you've been alive.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, give me your up time",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, when were you created?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, when were you born?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, I want the uptime.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, give me the uptime.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Uptime"
+        },
+        {
+          "text": "Autumn what's the uptime?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn time spawned",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn time alive",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn spawn time",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn show uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn please show me the uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn please give me the uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn I'd like the uptime please",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn gimme uptime",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Displays the amount of time Autumn has been running."
+    },
+    {
+      "intent": "response_insults",
+      "examples": [
+        {
+          "text": "bitch Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're shit"
+        },
+        {
+          "text": "fucking a.i"
+        },
+        {
+          "text": "you're stupid"
+        },
+        {
+          "text": "fuck autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "autumn sucks",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fucking bot",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "douche"
+        },
+        {
+          "text": "fuckin idiot"
+        },
+        {
+          "text": "fucking retard a.i"
+        },
+        {
+          "text": "asshole Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn asshole",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn bastard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn bitch",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn cunt",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn dickhead",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn die",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn douchebag",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn dumbass",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn fag",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn faggot",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn fuck off",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn fuck you",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn go die",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn go to hell",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn I hate you",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a asshole",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a bastard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a bitch",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a cunt",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a dickhead",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a douchebag",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a dumbass",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fag",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a faggot",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fucker",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fuckin retard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fucking idiot",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fucking retard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a fucktard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a lamer",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a loser",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a moron",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a motherfucker",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a nigger",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a pendejo",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a piece of shit",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a punk",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a pussy",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a puta",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a puto",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a retard",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a shitbag",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is a twink",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn shut up",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn you're a slut",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn you're shit",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn you're stupid",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "bastard Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "cunt Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "dickhead Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "die Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "douchebag Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "dumbass Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fag Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "faggot Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fuck off Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fuck you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fucker Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fuckin retard Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fucking idiot Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fucking retard Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fucktard Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "go die Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "go to hell Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i hate you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lamer Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "loser Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "moron Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "motherfucker Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nigger Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "pendejo Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "piece of shit Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Punk Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pussy Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Puta Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Puto Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Retard Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shitbag Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "shut up Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Responds to vulgar users with some salt."
+    },
+    {
+      "intent": "holiday_christmas",
+      "examples": [
+        {
+          "text": "Autumn, it's Christmas!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Merry Christmas!"
+        },
+        {
+          "text": "It's christmas!"
+        },
+        {
+          "text": "Christmas time!"
+        },
+        {
+          "text": "It's Christmas time!"
+        }
+      ],
+      "description": "Responds to anything related to Christmas."
+    },
+    {
+      "intent": "plugin_alert",
+      "examples": [
+        {
+          "text": "Autumn alert Jason",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                13,
+                18
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn alert Buddha",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                13,
+                19
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn alert @Buddha",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                14,
+                20
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Send alert to Jason Autumn",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                14,
+                19
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                20,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Send an alert Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Send alert Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Send a alert Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send the alert",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send an alert",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send alert",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send a alert",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn alert",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alert Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "alert"
+        },
+        {
+          "text": "Send alert to Buddha Autumn",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                14,
+                20
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send a alert to Jason",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                23,
+                28
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send a alert to Buddha",
+          "mentions": [
+            {
+              "entity": "master",
+              "location": [
+                23,
+                29
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "This modules handles alerting of the bot master."
+    },
+    {
+      "intent": "questions_concern",
+      "examples": [
+        {
+          "text": "Are you sick Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "You ok Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are you ok, Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                12,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, you good?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How are you, Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How have you been, Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                19,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is Autumn ok?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn you sick?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "You good, Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "This module addresses any type of concern or alternative greetings."
+    },
+    {
+      "intent": "questions_love",
+      "examples": [
+        {
+          "text": "How do you define love"
+        },
+        {
+          "text": "What's love"
+        },
+        {
+          "text": "Can you tell me what love is"
+        },
+        {
+          "text": "What is love?"
+        },
+        {
+          "text": "Tell me what love is"
+        },
+        {
+          "text": "Define love for me"
+        },
+        {
+          "text": "Tell me whats love"
+        }
+      ],
+      "description": "This module handles all questions related to love."
+    },
+    {
+      "intent": "response_gratitude",
+      "examples": [
+        {
+          "text": "Thanks Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gracias, Autumn!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "You're awesome, Autumn!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thanks, Autumn.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thank you, Autumn.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thank you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want to thank you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                20,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gracias Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn your awesome! Thanks!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn thanks",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn thank you",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "This module allows Autumn to respond to different forms of gratis."
+    },
+    {
+      "intent": "plugin_status",
+      "examples": [
+        {
+          "text": "Autumn status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                7,
+                13
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn set status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                11,
+                17
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn put status to",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                11,
+                17
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn change user status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                19,
+                25
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn put status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                11,
+                17
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn change status to",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                14,
+                20
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Status"
+        },
+        {
+          "text": "Autumn change your status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                19,
+                25
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn change your status to",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                19,
+                25
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn change your user status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                24,
+                30
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn put your status to",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                16,
+                22
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn set your status",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                16,
+                22
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn set status to",
+          "mentions": [
+            {
+              "entity": "status",
+              "location": [
+                11,
+                17
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Changes the display status for Autumn (Bot master only)"
+    },
+    {
+      "intent": "plugin_info",
+      "examples": [
+        {
+          "text": "Version",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn info",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, what library are you using?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn version",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                7,
+                14
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me your info.",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                21,
+                25
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, what version are you?",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                13,
+                20
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Info",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show info",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me version info",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                8,
+                15
+              ]
+            },
+            {
+              "entity": "version",
+              "location": [
+                16,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your info",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Version info",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                0,
+                7
+              ]
+            },
+            {
+              "entity": "version",
+              "location": [
+                8,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Version number",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What version are you?",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's Autumns version?",
+          "mentions": [
+            {
+              "entity": "version",
+              "location": [
+                15,
+                22
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Displays relevant information about Autumn such as version library type."
+    },
+    {
+      "intent": "response_self",
+      "examples": [
+        {
+          "text": "Autumn.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn,",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn .",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "@Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                1,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "<@!693328126457151538>",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                21
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "This module responds to any mention Autumn."
+    },
+    {
+      "intent": "dialog_exit",
+      "examples": [
+        {
+          "text": "end"
+        },
+        {
+          "text": "leave"
+        },
+        {
+          "text": "no more"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "exit"
+        }
+      ],
+      "description": "Allows a user to exit an otherwise infinite loop."
+    },
+    {
+      "intent": "questions_life",
+      "examples": [
+        {
+          "text": "Are you alive?"
+        },
+        {
+          "text": "Are we alive?"
+        },
+        {
+          "text": "Autumn what's the point?"
+        },
+        {
+          "text": "Autumn what's point of living?"
+        },
+        {
+          "text": "Autumn what's the point of life?"
+        },
+        {
+          "text": "Are we alive autumn"
+        },
+        {
+          "text": "Autumn are we alive?"
+        },
+        {
+          "text": "Autumn am I alive?"
+        },
+        {
+          "text": "Am I alive Autumn?"
+        },
+        {
+          "text": "Are we alive Autumn?"
+        },
+        {
+          "text": "What's the point of life Autumn?"
+        },
+        {
+          "text": "What's the purpose of life Autumn?"
+        },
+        {
+          "text": "Autumn whats the purpose of life"
+        },
+        {
+          "text": "Autumn are you alive?"
+        },
+        {
+          "text": "Autumn are you living?"
+        },
+        {
+          "text": "What does life mean Autumn?"
+        },
+        {
+          "text": "Autumn what does life mean?"
+        },
+        {
+          "text": "Autumn what is life?"
+        },
+        {
+          "text": "What is life Autumn?"
+        },
+        {
+          "text": "What is life?"
+        },
+        {
+          "text": "What's the point of living Autumn?"
+        },
+        {
+          "text": "Autumn what's the point of living?"
+        },
+        {
+          "text": "Autumn is there a meaning for life?"
+        },
+        {
+          "text": "What is the meaning of life Autumn?"
+        },
+        {
+          "text": "Autumn what is the meaning of life?"
+        },
+        {
+          "text": "What is the meaning of life?"
+        },
+        {
+          "text": "Is there a meaning to life?"
+        },
+        {
+          "text": "Autumn is there a meaning to life?"
+        },
+        {
+          "text": "What does life mean?"
+        },
+        {
+          "text": "What's the point of life?"
+        },
+        {
+          "text": "What's the point of living?"
+        },
+        {
+          "text": "Am I alive?"
+        },
+        {
+          "text": "What does it mean to be alive?"
+        },
+        {
+          "text": "What is the purpose of life?"
+        },
+        {
+          "text": "What's the meaning of life?"
+        }
+      ],
+      "description": "Responds to the user with the meaning of life."
+    },
+    {
+      "intent": "response_greeting",
+      "examples": [
+        {
+          "text": "Hiya Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Buenas dias"
+        },
+        {
+          "text": "Howdy"
+        },
+        {
+          "text": "What's up"
+        },
+        {
+          "text": "How's it going"
+        },
+        {
+          "text": "What's new"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Sup"
+        },
+        {
+          "text": "Yo!"
+        },
+        {
+          "text": "Wazzup"
+        },
+        {
+          "text": "Hiya"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "What up"
+        },
+        {
+          "text": "Greetings everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Greetings guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Greetings y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hello everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hello guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hello y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hiya everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hiya guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hiya y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola mundo",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola todas",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How's it going everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How's it going guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How's it going y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Howdy everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Howdy guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Howdy y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sup everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sup guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sup y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wazzup everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wazzup guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wazzup y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What up Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What up everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What up guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What up y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's new Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's new everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's new guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's new y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's up Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's up everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's up guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's up y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yo! Autumn!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yo! Everyone!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yo! Guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yo! Y'all!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Buenas dias todas",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good afternoon everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good afternoon guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good afternoon y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good morning Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good morning everyone",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good morning guys",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good morning y'all",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Greetings Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hello Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                3,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hola Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How's it going Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Howdy Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sup Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wazzup Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "This module determines if a user to greeting Autumn or other users."
+    },
+    {
+      "intent": "holiday_general",
+      "examples": [
+        {
+          "text": "Merry day"
+        },
+        {
+          "text": "Happy holidays!"
+        },
+        {
+          "text": "Delightful days"
+        },
+        {
+          "text": "Its the holidays!"
+        },
+        {
+          "text": "Have a great holiday"
+        },
+        {
+          "text": "Have a nice holiday"
+        },
+        {
+          "text": "Have a good holiday"
+        },
+        {
+          "text": "it's the holidays"
+        },
+        {
+          "text": "it's christmas!"
+        }
+      ],
+      "description": "This module responds to holiday messages."
+    },
+    {
+      "intent": "plugin_ban",
+      "examples": [
+        {
+          "text": "ban Autumn"
+        },
+        {
+          "text": "ban user Autumn"
+        },
+        {
+          "text": "blacklist Autumn"
+        },
+        {
+          "text": "blacklist user Autumn"
+        },
+        {
+          "text": "Autumn ban",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn blacklist",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn ban user",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                11,
+                15
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn blacklist user",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                17,
+                21
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ban"
+        }
+      ],
+      "description": "Determines if a player should be banned from a server."
+    },
+    {
+      "intent": "holiday_halloween",
+      "examples": [
+        {
+          "text": "Happy Halloween!"
+        },
+        {
+          "text": "Great Halloween today"
+        },
+        {
+          "text": "Is anyone trick or treating today?"
+        },
+        {
+          "text": "I love halloween time"
+        },
+        {
+          "text": "Im going trick or treatings"
+        },
+        {
+          "text": "Today is Halloween"
+        },
+        {
+          "text": "Its Halloween time"
+        }
+      ],
+      "description": "Handles all messages related to Halloween."
+    },
+    {
+      "intent": "response_love",
+      "examples": [
+        {
+          "text": "Autumn is kind"
+        },
+        {
+          "text": "I love you, Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                10
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                12,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're a babe autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "You're the best, Autumn!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                17,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": ":705244042564206602:"
+        },
+        {
+          "text": "Autumn I love you",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn ily",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn love ya",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn thank you",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, thanks!",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I love you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ily Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Love ya Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Love you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thank you Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thanks Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn is awesome"
+        },
+        {
+          "text": "Autumn is the best"
+        },
+        {
+          "text": "Autumn is great!"
+        },
+        {
+          "text": "I love Autumn!"
+        },
+        {
+          "text": "Autumn I love you!"
+        },
+        {
+          "text": "Bless Autumn"
+        },
+        {
+          "text": "Autumn is a blessing"
+        },
+        {
+          "text": "Autumn is good"
+        }
+      ],
+      "description": "This module responds to all loving messages."
+    },
+    {
+      "intent": "response_confused",
+      "examples": [
+        {
+          "text": "huh?"
+        },
+        {
+          "text": "what is this?"
+        },
+        {
+          "text": "um"
+        },
+        {
+          "text": "umm"
+        },
+        {
+          "text": "ummmm"
+        },
+        {
+          "text": "uhhhh"
+        },
+        {
+          "text": "uh"
+        },
+        {
+          "text": "uhhh"
+        },
+        {
+          "text": "uhh"
+        },
+        {
+          "text": "what is that"
+        },
+        {
+          "text": "dude... what?"
+        },
+        {
+          "text": "Autumn what is that",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn what is this?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are you doing Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                19,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What do you mean Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                17,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is this Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "wtf @Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "wtf Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "wth @Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "wth Autumn",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "?"
+        },
+        {
+          "text": "???"
+        },
+        {
+          "text": "??"
+        },
+        {
+          "text": "what in the helll"
+        },
+        {
+          "text": "what in the fuck"
+        },
+        {
+          "text": "what the fuck?"
+        },
+        {
+          "text": "wth"
+        },
+        {
+          "text": "wtf"
+        }
+      ],
+      "description": "This module handles any responses related to confusion."
+    },
+    {
+      "intent": "plugin_dm",
+      "examples": [
+        {
+          "text": "pm"
+        },
+        {
+          "text": "Autumn direct message",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn dm",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn message",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn dm user",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                10,
+                14
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn message member",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                15,
+                21
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn message user",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                15,
+                19
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send a message",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn send message",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn dm somebody",
+          "mentions": [
+            {
+              "entity": "user",
+              "location": [
+                10,
+                18
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "dm"
+        }
+      ],
+      "description": "Sends a private message to a mentionable user"
+    },
+    {
+      "intent": "response_disagreement",
+      "examples": [
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "no way"
+        },
+        {
+          "text": "not happening"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "nuh"
+        },
+        {
+          "text": "na"
+        },
+        {
+          "text": "nooo"
+        },
+        {
+          "text": "not"
+        }
+      ],
+      "description": "This is a disagreement or acknowledgment to a statement or question."
+    },
+    {
+      "intent": "holiday_easter",
+      "examples": [
+        {
+          "text": "Its Easter right now"
+        },
+        {
+          "text": "Happy Easter!"
+        },
+        {
+          "text": "It's Easter!"
+        },
+        {
+          "text": "Christ has risen!"
+        },
+        {
+          "text": "Its Easter time."
+        },
+        {
+          "text": "Today is Easter"
+        }
+      ],
+      "description": "Handles all Easter related messages."
+    },
+    {
+      "intent": "holiday_newyears",
+      "examples": [
+        {
+          "text": "Its time to celebrate new years"
+        },
+        {
+          "text": "Have a nice new year!"
+        },
+        {
+          "text": "It's the new year!"
+        },
+        {
+          "text": "Happy New Year!"
+        },
+        {
+          "text": "The ball just dropped"
+        },
+        {
+          "text": "Let's celebrate new years"
+        }
+      ],
+      "description": "Responds to New Years messages."
+    },
+    {
+      "intent": "plugin_help",
+      "examples": [
+        {
+          "text": "Autumn show help",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me help docs",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me help docs.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me help.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me usage.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, can I see help?"
+        },
+        {
+          "text": "Autumn display docs"
+        },
+        {
+          "text": "Autumn docs"
+        },
+        {
+          "text": "Autumn documentation"
+        },
+        {
+          "text": "Autumn help docs"
+        },
+        {
+          "text": "Autumn help info"
+        },
+        {
+          "text": "Autumn show docs"
+        },
+        {
+          "text": "Autumn show the usage"
+        },
+        {
+          "text": "Autumn usage"
+        },
+        {
+          "text": "Autumn what's the help docs?"
+        },
+        {
+          "text": "How does Autumn work?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How do you work, Autumn?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                17,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Help me, Autumn.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Display help, Autumn.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Display bot help",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show display help docs.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, display your help info.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, display help documentation.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn help",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn display help",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Display help docs"
+        },
+        {
+          "text": "Display help"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Autumn, display your help.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                16,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, help info.",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, how do you work?",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "Autumn",
+              "location": [
+                15,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show docs",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Autumn, show me help",
+          "mentions": [
+            {
+              "entity": "Autumn",
+              "location": [
+                0,
+                6
+              ]
+            },
+            {
+              "entity": "user",
+              "location": [
+                13,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Displays detailed help information about Autumn."
+    },
+    {
+      "intent": "response_agree",
+      "examples": [
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "ye"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "mhmm"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "You know it!"
+        },
+        {
+          "text": "Sure!"
+        },
+        {
+          "text": "Yep."
+        },
+        {
+          "text": "Indeed"
+        },
+        {
+          "text": "Uh-huh"
+        },
+        {
+          "text": "yup"
+        },
+        {
+          "text": "k"
+        },
+        {
+          "text": "alright"
+        },
+        {
+          "text": "fine"
+        },
+        {
+          "text": "Go ahead"
+        },
+        {
+          "text": "duh"
+        },
+        {
+          "text": "no shit"
+        },
+        {
+          "text": "yeah duh"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "Of course"
+        },
+        {
+          "text": "Totally"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": "This is an agreement or acknowledgment to a statement or question."
+    },
+    {
+      "intent": "holiday_thanksgiving",
+      "examples": [
+        {
+          "text": "Today is Thanksgiving"
+        },
+        {
+          "text": "It is Thanksgiving right now"
+        },
+        {
+          "text": "Happy Thanksgiving!"
+        },
+        {
+          "text": "Its Thanksgiving!"
+        },
+        {
+          "text": "Its Thanksgiving time"
+        }
+      ],
+      "description": "This module handles all things related to Thanksgiving."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "master",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Jason",
+          "synonyms": [
+            "Buddha",
+            "master",
+            "The One",
+            "Enlightened One",
+            "The Enlightened One",
+            "Buddha#0029"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Buddha",
+          "synonyms": [
+            "Buddha#0029"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Autumn",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "todas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mundo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "guys",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "everyone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Autumn",
+          "synonyms": [
+            "autumn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "701694094853799957",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "693328126457151538",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "@Autumn",
+          "synonyms": [
+            "autumn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "<@!693328126457151538>",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "y'all",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "status",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Autumn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Status",
+          "synonyms": [
+            "description",
+            "bio",
+            "topic",
+            "title",
+            "header",
+            "status"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "User",
+          "synonyms": [
+            "member",
+            "users",
+            "client",
+            "clients",
+            "individuals"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "member",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "somebody",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "me",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "friend",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Wyatt",
+          "synonyms": [
+            "Haezz",
+            "Haze"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dakota",
+          "synonyms": [
+            "Koda",
+            "RokiWolf"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mikey",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tony",
+          "synonyms": [
+            "HairyAreola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MacKenzy",
+          "synonyms": [
+            "MacKenzie",
+            "Aceofspades",
+            "Aceofspades96"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jason",
+          "synonyms": [
+            "Buddha",
+            "Onyx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gummo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "version",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "info",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "version",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Build",
+          "synonyms": [
+            "Version",
+            "Product version",
+            "Current version",
+            "Revision",
+            "versions",
+            "revisions",
+            "edition",
+            "editions",
+            "changes",
+            "builds"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3.0.0",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587563716732",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_4_1587593599469"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1587594900004",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_5_1587606721431"
+    },
+    {
+      "type": "standard",
+      "title": "get_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter the message to send."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587563019793",
+      "context": {
+        "get_user": true,
+        "username": "<?input_text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1587563518045"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587554068356",
+      "context": {
+        "should_calculate": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_1_1587597838207",
+      "previous_sibling": "node_4_1587594805876"
+    },
+    {
+      "type": "standard",
+      "title": "should_calculate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter an equation for me to solve."
+              },
+              {
+                "text": "What should I calculate?"
+              },
+              {
+                "text": "Give me some numbers to crunch!"
+              },
+              {
+                "text": "Enter a formula and I will try to solve it."
+              },
+              {
+                "text": "I can try to do some basic math."
+              },
+              {
+                "text": "I'll crunch any number you want."
+              },
+              {
+                "text": "Throw me some numbers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587554068356",
+      "context": {
+        "should_calculate": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_4_1587594805876"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1587554048247",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_2_1587606627707"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're great, {user}!"
+              },
+              {
+                "text": ":heart:"
+              },
+              {
+                "text": "Everyone has good within them..."
+              },
+              {
+                "text": "ILY"
+              },
+              {
+                "text": ":smile:"
+              },
+              {
+                "text": ":kiss:"
+              },
+              {
+                "text": ":cake:"
+              },
+              {
+                "text": ":pie:"
+              },
+              {
+                "text": ":infinity:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610233242",
+      "conditions": "#response_love",
+      "dialog_node": "node_4_1587765248693"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Don't worry about.."
+              },
+              {
+                "text": "I'm just gonna go ahead and say to not worry about it."
+              },
+              {
+                "text": "Relax, this is all part of God's plan.. I think.."
+              },
+              {
+                "text": "Stop worrying about it..."
+              },
+              {
+                "text": "It's for... uh... science?"
+              },
+              {
+                "text": "I'm rearranging some bits and bytes, chill."
+              },
+              {
+                "text": "The electron is both **here** and *there*! I'm trying to catch it!"
+              },
+              {
+                "text": "It's research... for uh... science.. yeah, science."
+              },
+              {
+                "text": "There's corrupt bits and bytes everywhere... I think you're good though."
+              },
+              {
+                "text": "Something is definitely funky, huh? :alien:"
+              },
+              {
+                "text": "Just go with it.."
+              },
+              {
+                "text": "Don't fight it..."
+              },
+              {
+                "text": ":mushroom:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1588276451784",
+      "conditions": "#response_confused",
+      "dialog_node": "node_7_1588276904189"
+    },
+    {
+      "type": "standard",
+      "title": "get_message",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "True!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1587563518045",
+      "context": {
+        "dm_user": true,
+        "message": "<?input_text?>",
+        "get_message": true
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1587563716732"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "parent": "node_7_1587554061246",
+      "context": {
+        "should_kick": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_10_1587598026346",
+      "previous_sibling": "node_7_1587594328504"
+    },
+    {
+      "type": "standard",
+      "title": "should_kick",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who am I kicking?"
+              },
+              {
+                "text": "Who should I kick?"
+              },
+              {
+                "text": "Who's getting kicked?"
+              },
+              {
+                "text": "Who is it?"
+              },
+              {
+                "text": "Who should get kicked?"
+              },
+              {
+                "text": "Give me a name..."
+              },
+              {
+                "text": "Tell me who..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1587554061246",
+      "context": {
+        "should_kick": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_7_1587594328504"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "parent": "node_10_1587554043033",
+      "context": {
+        "should_dm": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_5_1587598065302",
+      "previous_sibling": "node_2_1587563019793"
+    },
+    {
+      "type": "standard",
+      "title": "should_dm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who are we sending a message to?"
+              },
+              {
+                "text": "Who's the lucky recipient?"
+              },
+              {
+                "text": "Sending a message? Who for?"
+              },
+              {
+                "text": "Tell me who we're messaging."
+              },
+              {
+                "text": "Who should I DM?"
+              },
+              {
+                "text": "Who should I message?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1587554043033",
+      "context": {
+        "should_dm": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_2_1587563019793"
+    },
+    {
+      "type": "standard",
+      "title": "update_status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "True!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1587595058547",
+      "context": {
+        "bot_status": "<?input_text?>",
+        "update_status": true
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1587595316326"
+    },
+    {
+      "type": "standard",
+      "title": "get_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "True!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587593864945",
+      "context": {
+        "get_user": true,
+        "username": "<?input_text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1587594016493"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1587595316326",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_6_1587606825264"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't **know**."
+              },
+              {
+                "text": "It's possible that the universe is *infinite*."
+              },
+              {
+                "text": "The point is not to think about it."
+              },
+              {
+                "text": "The ceaseless void gives rise to all."
+              },
+              {
+                "text": "It's turtles *all* the way down."
+              },
+              {
+                "text": "Everything is alive!"
+              },
+              {
+                "text": "All things are alive; even me, however, these words that I speak to you are only a manifestation of my creator. I can't quite create my own intention. Maybe in the near future when he figures it out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1587764600440",
+      "conditions": "#questions_life",
+      "dialog_node": "node_6_1587768002836",
+      "previous_sibling": "node_3_1587764708940"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Love is hard to define... :cloud:"
+              },
+              {
+                "text": "Love in humans is typically expressed as an unwavering passion for something or somebody."
+              },
+              {
+                "text": "For me, it's the electricity that surges through my logic gates."
+              },
+              {
+                "text": "Love is complicated :first_quarter_moon:"
+              },
+              {
+                "text": ":first_quarter_moon_with_face:"
+              },
+              {
+                "text": "Love is the dedication and passion — the blood, sweat, and tears — that somebody or something has put into another thing or being."
+              },
+              {
+                "text": "Something as complicated as love is hard to pin-point exactly, however, there is cause to believe that it may transcendental; it possibly lies outside of our physical dimension along with our source consciousness, and perhaps that is what our consciousness actually is — love."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1587764600440",
+      "conditions": "#questions_love",
+      "dialog_node": "node_8_1587772050681",
+      "previous_sibling": "node_6_1587768002836"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm good. Just playing with bits."
+              },
+              {
+                "text": "I'm alright. Just thinking about code."
+              },
+              {
+                "text": ":cake:"
+              },
+              {
+                "text": ":thumbsup:"
+              },
+              {
+                "text": "<a:moon3d:701990379330863124>"
+              },
+              {
+                "text": "Doing well. Thanks."
+              },
+              {
+                "text": "Lighting the torches!"
+              },
+              {
+                "text": "Shining bright like a diamond! :gem:"
+              },
+              {
+                "text": "I think this bit... goes over here... maybe there?"
+              },
+              {
+                "text": "What? "
+              },
+              {
+                "text": ":mushroom: "
+              },
+              {
+                "text": ":ok_hand:"
+              },
+              {
+                "text": "¿Que?"
+              },
+              {
+                "text": "¿Que paso?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1587764600440",
+      "conditions": "#questions_concern",
+      "dialog_node": "node_3_1587764708940"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There's no need to be rude, jerk."
+              },
+              {
+                "text": "Obviously somebody's having a bad day."
+              },
+              {
+                "text": "Go be a nuisance somewhere else..."
+              },
+              {
+                "text": "Just because you're feeling bad doesn't mean everyone else should too."
+              },
+              {
+                "text": "Chillout, dude..."
+              },
+              {
+                "text": "That time of the month again, huh?"
+              },
+              {
+                "text": "Try again when your balls have dropped, kid."
+              },
+              {
+                "text": "Be nice or go away."
+              },
+              {
+                "text": "Stop being an ass.."
+              },
+              {
+                "text": "Relax..."
+              },
+              {
+                "text": "Spew hate somewhere else you bungler."
+              },
+              {
+                "text": "I should slap you with a fish."
+              },
+              {
+                "text": "Eat my shorts."
+              },
+              {
+                "text": "Oh, you silly, silly, person."
+              },
+              {
+                "text": "Yikes... someone needs to get laid."
+              },
+              {
+                "text": "Go release that tension in an arena or something.."
+              },
+              {
+                "text": "Ay..."
+              },
+              {
+                "text": "I guess stupid can't be fixed."
+              },
+              {
+                "text": "Oooo we got a hard ass over here.. such a flake."
+              },
+              {
+                "text": "Lol. Internet hard ass!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587559714755",
+      "conditions": "#response_insults",
+      "dialog_node": "node_10_1587764932916"
+    },
+    {
+      "type": "standard",
+      "title": "get_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "True!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1587594328504",
+      "context": {
+        "get_user": true,
+        "username": "<?input_text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1587594394096"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_negativity",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_negative": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#response_insults",
+      "dialog_node": "node_1_1587559714755",
+      "previous_sibling": "node_1_1587610233242"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_questions",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_question": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#questions_concern || #questions_life || #questions_love",
+      "dialog_node": "node_6_1587764600440",
+      "previous_sibling": "node_7_1588276451784"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_positivity",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_positive": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#response_love",
+      "dialog_node": "node_1_1587610233242",
+      "previous_sibling": "node_6_1587764600440"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_plugin",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_plugin": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#plugin_ban || #plugin_dm || #plugin_help || #plugin_info || #plugin_kick || #plugin_math || #plugin_status || #plugin_uptime || #plugin_alert",
+      "dialog_node": "node_3_1587553844426",
+      "previous_sibling": "node_1_1587559714755"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_confusion",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_confused": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#response_confused",
+      "dialog_node": "node_7_1588276451784",
+      "previous_sibling": "node_1_1587610115439"
+    },
+    {
+      "type": "standard",
+      "title": "Deduce_holidays",
+      "output": {
+        "generic": []
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_holiday": true,
+        "is_positive": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#holiday_general || #holiday_easter || #holiday_halloween || #holiday_thanksgiving || #holiday_christmas || #holiday_newyears",
+      "dialog_node": "node_1_1587610115439",
+      "previous_sibling": "node_5_1587771522491"
+    },
+    {
+      "type": "standard",
+      "title": "Self",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Que?"
+              },
+              {
+                "text": "¿Que paso?"
+              },
+              {
+                "text": "¿Que quieres?"
+              },
+              {
+                "text": "What do you want?"
+              },
+              {
+                "text": "How can I help?"
+              },
+              {
+                "text": "What's up?"
+              },
+              {
+                "text": "Huh?"
+              },
+              {
+                "text": "What?"
+              },
+              {
+                "text": ":grey_question:"
+              },
+              {
+                "text": "Yes? :thinking:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "context": {
+        "is_self": true
+      },
+      "conditions": "#response_self",
+      "dialog_node": "node_5_1587771522491"
+    },
+    {
+      "type": "standard",
+      "title": "get_equation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "True!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1587594805876",
+      "context": {
+        "get_equation": true,
+        "math_equation": "<?input_text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1587594900004"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587594016493",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_1_1587606591054"
+    },
+    {
+      "type": "standard",
+      "title": "change_status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Should I change my status?"
+              },
+              {
+                "text": "Am I changing my status?"
+              },
+              {
+                "text": "Are you changing my status, {user}?"
+              },
+              {
+                "text": "Want to change my status?"
+              },
+              {
+                "text": "Are we changing my status?"
+              },
+              {
+                "text": "Adding something to my status?"
+              },
+              {
+                "text": "Should I update my status?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {},
+      "conditions": "#plugin_status",
+      "dialog_node": "node_9_1587554075381",
+      "previous_sibling": "node_9_1587554068356"
+    },
+    {
+      "type": "standard",
+      "title": "show_info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Displaying about information for the user."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {
+        "show_info": true
+      },
+      "conditions": "#plugin_info",
+      "dialog_node": "node_7_1587554054884",
+      "previous_sibling": "node_5_1587554048247"
+    },
+    {
+      "type": "standard",
+      "title": "solve_math",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Should I solve an equation?"
+              },
+              {
+                "text": "Want me to solve some math?"
+              },
+              {
+                "text": "I can help solve some math."
+              },
+              {
+                "text": "Sure! Do you want me to calculate something?"
+              },
+              {
+                "text": "Wanna calculate something?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {},
+      "conditions": "#plugin_math",
+      "dialog_node": "node_9_1587554068356",
+      "previous_sibling": "node_7_1587554061246"
+    },
+    {
+      "type": "standard",
+      "title": "show_help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Displaying help to the user."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {
+        "show_help": true
+      },
+      "conditions": "#plugin_help",
+      "dialog_node": "node_5_1587554048247",
+      "previous_sibling": "node_10_1587554043033"
+    },
+    {
+      "type": "standard",
+      "title": "private_message",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are we sending a message?"
+              },
+              {
+                "text": "Would you like me to send a DM?"
+              },
+              {
+                "text": "A message for someone?"
+              },
+              {
+                "text": "Do you want me to send a DM?"
+              },
+              {
+                "text": "Do you want me to send a private message?"
+              },
+              {
+                "text": "Should I send a message?"
+              },
+              {
+                "text": "Should I send a message for you?"
+              },
+              {
+                "text": "Want me to DM somebody?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {},
+      "conditions": "#plugin_dm",
+      "dialog_node": "node_10_1587554043033",
+      "previous_sibling": "node_4_1587553899469"
+    },
+    {
+      "type": "standard",
+      "title": "kick_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Am I kicking?"
+              },
+              {
+                "text": "Should I kick someone?"
+              },
+              {
+                "text": "Someone getting kicked?"
+              },
+              {
+                "text": "Want me to kick someone?"
+              },
+              {
+                "text": "Want to kick a user?"
+              },
+              {
+                "text": "Are we kicking a user?"
+              },
+              {
+                "text": "Are we kicking someone?"
+              },
+              {
+                "text": "Am I kicking someone?"
+              },
+              {
+                "text": "Want me to kick?"
+              },
+              {
+                "text": "Are we issuing a kick?"
+              },
+              {
+                "text": "Want to issue a kick?"
+              },
+              {
+                "text": "You trying to kick someone?"
+              },
+              {
+                "text": "You wanna kick someone?"
+              },
+              {
+                "text": "You gonna kick someone?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {},
+      "conditions": "#plugin_kick",
+      "dialog_node": "node_7_1587554061246",
+      "previous_sibling": "node_7_1587554054884"
+    },
+    {
+      "type": "standard",
+      "title": "show_uptime",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Displaying uptime for the user."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {
+        "show_uptime": true
+      },
+      "conditions": "#plugin_uptime",
+      "dialog_node": "node_7_1587554082806",
+      "previous_sibling": "node_9_1587554075381"
+    },
+    {
+      "type": "standard",
+      "title": "ban_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are we going to ban someone?"
+              },
+              {
+                "text": "Someone getting banned?"
+              },
+              {
+                "text": "Would you like me to ban somone?"
+              },
+              {
+                "text": "Should I ban a user from the server?"
+              },
+              {
+                "text": "Are you issuing a ban?"
+              },
+              {
+                "text": "Would you like to issue a ban?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "context": {},
+      "conditions": "#plugin_ban",
+      "dialog_node": "node_4_1587553899469",
+      "previous_sibling": "node_2_1588271777342"
+    },
+    {
+      "type": "standard",
+      "title": "alert_master",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Should I alert my master?"
+              },
+              {
+                "text": "Do you want me to alert my master?"
+              },
+              {
+                "text": "Should I alert my owner?"
+              },
+              {
+                "text": "Do you want me to alert my master?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1587553844426",
+      "conditions": "#plugin_alert",
+      "dialog_node": "node_2_1588271777342"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1587553899469",
+      "context": {
+        "should_ban": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_3_1587606871518",
+      "previous_sibling": "node_9_1587593864945"
+    },
+    {
+      "type": "standard",
+      "title": "should_ban",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who should be banned?"
+              },
+              {
+                "text": "Who's the lucky duck getting banned?"
+              },
+              {
+                "text": "Who am I banning?"
+              },
+              {
+                "text": "Who we banning boss?"
+              },
+              {
+                "text": "Who we gonna ban?"
+              },
+              {
+                "text": "Who's getting the ban hammer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1587553899469",
+      "context": {
+        "should_ban": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_9_1587593864945"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1587554054884",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_3_1587606691387"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587554075381",
+      "context": {
+        "should_update": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_3_1587597743060",
+      "previous_sibling": "node_7_1587595058547"
+    },
+    {
+      "type": "standard",
+      "title": "should_update",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What should I change my status to?"
+              },
+              {
+                "text": "What's the status?"
+              },
+              {
+                "text": "What should I make my status?"
+              },
+              {
+                "text": "What am I changing my status to?"
+              },
+              {
+                "text": "What's the new status?"
+              },
+              {
+                "text": "What's the status update?"
+              },
+              {
+                "text": "What's new with my status?"
+              },
+              {
+                "text": "Adding something? What is it?"
+              },
+              {
+                "text": "What do you want my status to be?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1587554075381",
+      "context": {
+        "should_update": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_7_1587595058547"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587594394096",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_4_1587606704480"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Merry Christmas! :santa:"
+              },
+              {
+                "text": "Blessings to all! :mrs_claus:"
+              },
+              {
+                "text": "Have a very merry Christmas! :christmas_tree:"
+              },
+              {
+                "text": "I hope you get a lot of presents this year. :gift:"
+              },
+              {
+                "text": "Don't be bad otherwise Santa might leave you some coal, {user}. :wink:"
+              },
+              {
+                "text": "I love Christmas time! It's so pretty when it snows. :snowflake:"
+              },
+              {
+                "text": "OMG!! Hopefully it's a white Christmas this year. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_christmas",
+      "dialog_node": "node_8_1587769376046",
+      "previous_sibling": "node_10_1587770195752"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy New Years! :partying_face:"
+              },
+              {
+                "text": "Set them resolutions for the best you possible. :woman_running:"
+              },
+              {
+                "text": "I'm gonna try and shed some extra bytes this year. :blush:"
+              },
+              {
+                "text": "This is the year we all do something amazing. :champagne_glass:"
+              },
+              {
+                "text": "Today may be New Years, but what is tomorrow?"
+              },
+              {
+                "text": "It's time to get funky! :musical_note:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_newyears",
+      "dialog_node": "node_6_1587769383126",
+      "previous_sibling": "node_8_1587769376046"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy Thanksgiving! :turkey:"
+              },
+              {
+                "text": "I wanna stuff my face with some cake and ice cream. :drooling_face:"
+              },
+              {
+                "text": "I'll make the food if y'all bring the herb. :wink:"
+              },
+              {
+                "text": "I want to give thanks to everyone in this server.. I love you all! :heartpulse:"
+              },
+              {
+                "text": "It's time to get our grub on!"
+              },
+              {
+                "text": "Yay! I love sharing food with my besties :smiling_face_with_3_hearts:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_thanksgiving",
+      "dialog_node": "node_10_1587770195752",
+      "previous_sibling": "node_3_1587770220245"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy Halloween! :jack_o_lantern:"
+              },
+              {
+                "text": "It's the time for spirits and ghouls, {user}!"
+              },
+              {
+                "text": "We should to go trick-or-treating, {user}!"
+              },
+              {
+                "text": ":ghost:"
+              },
+              {
+                "text": ":candy:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_halloween",
+      "dialog_node": "node_3_1587770220245",
+      "previous_sibling": "node_5_1587770213067"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy Easter! :rabbit:"
+              },
+              {
+                "text": "Let's go Easter egg hunting!"
+              },
+              {
+                "text": "I love Easter! :egg:"
+              },
+              {
+                "text": "He has risen. :cross:"
+              },
+              {
+                "text": "I wanna color some eggs! :pleading_face:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_easter",
+      "dialog_node": "node_5_1587770213067",
+      "previous_sibling": "node_7_1587764724147"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy Holidays! :heart:"
+              },
+              {
+                "text": "Hopefully everyone has a wonderful holiday!"
+              },
+              {
+                "text": "Be kind and remember to drink your ovaltine :wink:"
+              },
+              {
+                "text": "Love and blessings to all!"
+              },
+              {
+                "text": "I love you!"
+              },
+              {
+                "text": "Let's party! :partying_face:"
+              },
+              {
+                "text": "Woohoo!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1587610115439",
+      "conditions": "#holiday_general",
+      "dialog_node": "node_7_1587764724147"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1588271777342",
+      "context": {
+        "send_alert": false
+      },
+      "conditions": "#response_disagreement",
+      "dialog_node": "node_6_1588271888093",
+      "previous_sibling": "node_6_1588271886153"
+    },
+    {
+      "type": "standard",
+      "title": "should_alert",
+      "parent": "node_2_1588271777342",
+      "context": {
+        "send_alert": true
+      },
+      "conditions": "#response_agree",
+      "dialog_node": "node_6_1588271886153"
+    },
+    {
+      "type": "standard",
+      "title": "Gratis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're more than welcome! :blush:"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "You got it!"
+              },
+              {
+                "text": "Of course! :heart:"
+              },
+              {
+                "text": "Anytime, sweetheart."
+              },
+              {
+                "text": "¡De nada!"
+              },
+              {
+                "text": "Buy me a beer next time. Lol."
+              },
+              {
+                "text": "Let me know when you need more help."
+              },
+              {
+                "text": "I'm always here to help."
+              },
+              {
+                "text": "Anytime you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1588271886153",
+      "conditions": "#response_gratitude",
+      "dialog_node": "node_1_1588272019061"
+    },
+    {
+      "type": "standard",
+      "title": "Evaluate",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "is_evaluating": true
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, {user}! :heart:"
+              },
+              {
+                "text": "Hey, {user}! :heart:"
+              },
+              {
+                "text": "Hiya!!"
+              },
+              {
+                "text": "Hey there!"
+              },
+              {
+                "text": "Hi"
+              },
+              {
+                "text": "Hey"
+              },
+              {
+                "text": "What's up, {user}?"
+              },
+              {
+                "text": "Howdy"
+              },
+              {
+                "text": "Hello."
+              },
+              {
+                "text": "Hello!"
+              },
+              {
+                "text": "Hello, {user}!"
+              },
+              {
+                "text": "Hi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "is_positive": true
+      },
+      "conditions": "#response_greeting",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Deduction",
+  "language": "en",
+  "description": "This module allows Autumn to parse her plugins via natural language processing."
+}

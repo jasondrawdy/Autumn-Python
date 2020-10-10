@@ -1,0 +1,14 @@
+Change status $user_status,status
+Change status to $user_status,status
+Change the status $user_status,status
+Change the status to $user_status.,status
+Change your status $user_status,status
+Change your status to $user_status,status
+Change your status to $user_status.,status
+Put status $user_status,status
+Put status to $user_status.,status
+Put your status to $user_status.,status
+Set status $user_status.,status
+Set status to $user_status.,status
+Set your status to $user_status.,status
+Status $user_status,status

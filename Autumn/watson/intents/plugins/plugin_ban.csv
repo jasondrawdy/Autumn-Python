@@ -1,0 +1,4 @@
+ban,plugin_ban
+blacklist,plugin_ban
+ban user,plugin_ban
+blacklist user,plugin_ban

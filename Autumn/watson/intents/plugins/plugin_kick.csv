@@ -1,0 +1,4 @@
+kick,plugin_kick
+boot,plugin_kick
+kick user,plugin_kick
+boot user,plugin_kick

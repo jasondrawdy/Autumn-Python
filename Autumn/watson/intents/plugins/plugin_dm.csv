@@ -1,0 +1,9 @@
+dm,plugin_dm
+message,plugin_dm
+send message,plugin_dm
+direct message,plugin_dm
+send a message,plugin_dm
+message member,plugin_dm
+message user,plugin_dm
+dm user,plugin_dm
+dm somebody,plugin_dm

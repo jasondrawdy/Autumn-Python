@@ -54,7 +54,7 @@ class Bot(object):
     )
     assistant.set_service_url('https://api.us-south.assistant.watson.cloud.ibm.com/instances/9a448ff5-627b-44b8-b4d3-22eacb7f1789')
     assistant_sessions = {}
-    assistant_id = 'YourWatsonAssitantIdHere' # This is very important. #!!!IMPORTANT!!!#
+    assistant_id = 'YourWatsonAssistantIdHere' # This is very important. #!!!IMPORTANT!!!#
 
     # =======================================
     # Initialization

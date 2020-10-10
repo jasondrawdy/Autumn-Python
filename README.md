@@ -10,7 +10,7 @@ Autumn is a simple and extensible Discord bot aimed at helping with moderation a
 
 # Requirements
 - **Python 3**  
-`brew install python`
+`brew install python` or `sudo apt install python3-pip`
 - **Discord.Py**:  
 `pip3 install discord.py`  
 - **IBM Watson SDK**:  

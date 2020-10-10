@@ -31,7 +31,7 @@ Currently there are only a handful of plugins for the bot because of simplicity 
 And of course there are a lot more packaged with the bot and more that can be developed!
 
 ### Plugin Template:
-If you would like to create a plugin for Autumn you can do so by following the structure of the template below. The template is actually fairly straight-forward and easy to follow. The first thing to notice is that the `bot` object, `sender`, and the `channel` if any, are provided to the plugin upon startup. The plugin is also provided any given args and the first real argument can typically be accessed at `args[0][0]`. Also, another point to take notice of is since the plugins are dynamically loaded any changes that are saved will be reflected in a nearly real-time state. The final and most important aspect of plugins for the bot is the naming convention. Right now, plugin files need to have the prefix of `autumn_` and then the actual plugin name such as *`hi`* for example; and thus making the name of the file itself `autumn_hi.py` and therefore recognizable by the bot for loading into its dictionary.
+If you would like to create a plugin for Autumn you can do so by following the structure of the template below. The template is actually fairly straight-forward and easy to follow. The first thing to notice is that the `bot` object, `sender`, and the `channel` if any, are provided to the plugin upon startup. The plugin is also provided any given args and the first real argument can typically be accessed at `args[0][0]`. Also, another point to take notice of is since the plugins are dynamically loaded any changes that are saved will be reflected in a nearly real-time state. The final and most important aspect of plugins for the bot is the naming convention. Right now, plugin files need to have the prefix of `discord-autumn_` and then the actual plugin name such as *`hi`* for example; and thus making the full name of the file itself `discord-autumn_hi.py` and therefore recognizable by the bot for loading into its dictionary.
 
 #### Greetings Plugin
 ```python
@@ -57,7 +57,7 @@ class Plugin(object):
 
 ```
 
-#### Bot Status Plugin
+#### Status Plugin
 ```python
 #!/usr/bin/python
 # -------------------------------------------------------------------------

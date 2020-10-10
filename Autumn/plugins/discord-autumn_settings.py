@@ -15,8 +15,6 @@ import random
 from datetime import datetime
 from modules import messages
 from plugins.settings import settings_general
-from plugins.settings import settings_moderation
-from plugins.settings import settings_game
 class Plugin(object):
     def __init__(self, bot, client, message):
         self.bot = bot

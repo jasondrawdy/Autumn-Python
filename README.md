@@ -1,3 +1,4 @@
+![Banner](https://user-images.githubusercontent.com/40871836/95787882-5e3c9600-0ca8-11eb-95e7-9e5a91bf1e4f.jpg)
 # Autumn-Python
 Autumn is a simple and extensible Discord bot aimed at helping with moderation and user-friendliness. The goal of the bot is to be as accessible, user-friendly, and extensible as possible which is accentuated by asynchronous initialization, multi-threading, and of course dynamic plugin loading. With these features in place it is possible to create an entirely new Discord bot because of the plug-and-play nature of the code.
 
